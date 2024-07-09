@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My School Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Brilliant Based Academy</h1>
+        <nav>
+            <div class="nav-container">
+                <a href="javascript:void(0);" class="icon" onclick="toggleNav()">&#9776;</a>
+                <ul id="nav-list" class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#events-section">School Events</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <img width="100%" height="20%" loading="lazy" src="" alt="School Image">
+            </div>
+        </section>
+        <section>
+            <h2 id="about">About Us</h2>
+            <p>Welcome to Brilliant Based Academy, where learning is a lifelong journey.</p>
+        </section>
+        <section class="events-section" id="events-section">
+            <h2>School Events</h2>
+            <div class="event">
+                <h3>Cultural Day</h3>
+                <p>Date: June 28, 2024</p>
+                <p>Details: A day to celebrate and appreciate the diverse cultures represented in our school community.</p>
+                <div class="culture-img">
+                    <img height="300px" width="300px" loading="lazy" alt="children in their cultural attire" src="path/to/image1.jpg">
+                    <img height="300px" width="300px" loading="lazy" alt="children in their cultural attire" src="path/to/image2.jpg">
+                    <img height="300px" width="300px" loading="lazy" alt="children in their cultural attire" src="path/to/image3.jpg">
+                    <img height="300px" width="300px" loading="lazy" alt="children in their cultural attire" src="path/to/image4.jpg">
+                </div>
+            </div>
+            <div class="event">
+                <h3>Graduation Ceremony</h3>
+                <p>Details: Celebrate the achievements of our graduating students with a formal ceremony and reception.</p>
+            </div>
+            <div class="event">
+                <h3>Debate Competition</h3>
+                <p>Details: Students will engage in a spirited debate on current issues, showcasing their public speaking and critical thinking skills.</p>
+                <img src="path/to/debate_image.jpg" alt="Debate Competition Image">
+            </div>
+            <!-- Add more events as needed -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> by Quintessential Info Solution</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
