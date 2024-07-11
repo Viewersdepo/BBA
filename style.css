@@ -69,7 +69,7 @@ h2, h3 {
     color:#ccc
 }
 .right_curve{
-    border-radius: 19%;
+    border-radius: 17%;
     background-color: #5b1786;
     color: #fff;
 }
@@ -79,6 +79,28 @@ h2, h3 {
     padding: 10px;
     border-bottom: 1px solid #ccc;
 }
+.carousel {
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    display: block;
+  }
 
 .events-section .event h3 {
     margin-bottom: 5px;
