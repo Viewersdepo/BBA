@@ -31,3 +31,23 @@ setInterval(showNextItem, 3000); // Change slide every 3 seconds
 
 // Optional: Initial active class for the first item
 items[0].classList.add('active');
+
+// handle the scroll effect
+document.addEventListener("DOMContentLoaded", function() {
+    const container = document.getElementsByClassName("left_curve");
+
+    function checkScroll() {
+        const triggerBottom = window.innerHeight;
+        const containerTop = container.getBoundingClientRect().top;
+
+        if (containerTop < triggerBottom) {
+            container.classList.add("show");
+        }
+    }
+
+    window.addEventListener("scroll", checkScroll);
+    checkScroll();
+});
+
+
+

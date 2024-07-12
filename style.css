@@ -66,7 +66,16 @@ h2, h3 {
 .left_curve{
     border-radius: 20px 20px 20px 59px;
     background-color: #bd2e71;
-    color:#ccc
+    color:#ccc;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+ /* Add the following CSS rule to styles.css to handle the "show" class */
+/* CSS rule to add */
+.show{
+    opacity: 1;
+    transform: translateY(0);
 }
 .right_curve{
     border-radius: 17%;
@@ -111,9 +120,11 @@ footer {
     background:linear-gradient(to right, purple, rgb(78, 64, 64)) ;
     color: #fff;
     padding: 10px;
-    position: fixed;
     width: 100%;
     bottom: 0;
+}
+footer li {
+    list-style-type:none;
 }
 
 a {
