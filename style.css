@@ -67,16 +67,8 @@ h2, h3 {
     border-radius: 20px 20px 20px 59px;
     background-color: #bd2e71;
     color:#ccc;
-    opacity: 0;
-    transform: translateY(100px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
- /* Add the following CSS rule to styles.css to handle the "show" class */
-/* CSS rule to add */
-.show{
-    opacity: 1;
-    transform: translateY(0);
-}
+ 
 .right_curve{
     border-radius: 17%;
     background-color: #5b1786;
